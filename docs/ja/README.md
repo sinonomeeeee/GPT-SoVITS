@@ -120,13 +120,13 @@ pip install -r requirementx.txt
 3. `shm_size`：Windows の Docker Desktop のデフォルトの利用可能メモリが小さすぎるため、異常な動作を引き起こす可能性があります。状況に応じて適宜設定してください。
 4. `deploy`セクションの GPU に関連する内容は、システムと実際の状況に応じて慎重に設定してください。
 
-#### docker compose で実行する
+#### docker compose で実行します。
 
 ```markdown
 docker compose -f "docker-compose.yaml" up -d
 ```
 
-#### docker コマンドで実行する
+#### docker コマンドで実行します。
 
 上記と同様に、実際の状況に基づいて対応するパラメータを変更し、次のコマンドを実行します：
 
